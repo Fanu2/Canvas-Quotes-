@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Canvas Quote Creator</h1>
+        <input type="file" id="image-picker" />
+        <input type="text" id="text-input" placeholder="Enter your text" />
+        
+        <select id="font-picker">
+            <option value="DejaVu Sans">DejaVu Sans</option>
+            <option value="Arial">Arial</option>
+            <option value="Courier">Courier</option>
+        </select>
+        
+        <input type="color" id="color-picker" value="#000000" />
+        
+        <button id="add-text">Add Text</button>
+        <button id="download">Download</button>
+        
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
